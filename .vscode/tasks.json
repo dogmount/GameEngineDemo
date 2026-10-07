@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"options": {
+		"cwd": "${workspaceFolder}/build/" // 命令工作目录
+        // ${workspaceFolder} 为当前链接文件夹的工作区根目录
+	},
+	"tasks": [
+		{
+			"label": "CMake",  // cmake 构建
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-S",
+				"${workspaceFolder}",  // 源码目录 ( CMakeLists.txt 所在目录)
+				"-B",
+				"${workspaceFolder}/build",  // 工程构建目录
+				"-G",
+				"MinGW Makefiles",  // 指明使用 Makefiles 编译
+				"-DCMAKE_BUILD_TYPE=Debug"       // 强制生成 Debug 构建
+			]
+		},
+		{
+			"label": "Make",  // make 编译
+			"type": "shell",
+			"command": "make",
+			"args": [],
+			"dependsOn":[
+				"CMake"
+			]
+		},
+		{
+			"label": "Build",  // 组合上面两个模块为一个过程
+			"dependsOn":[
+				"Make"
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++.exe - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            // "program": "${workspaceFolder}/build/main.exe", //可执行程序的完整路径
+            "program": "${workspaceFolder}/bin/GameDemo.exe",    // 你的 exe 绝对路径
+            "args": [], // 程序输入参数
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\Mingw\\mingw64\\bin\\gdb.exe", // gdb.exe 目录
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build",  // 启动前，执行 task.json 中的 Build 流程
+            // "logging": {
+            //     "trace": false,
+            //     "traceResponse": false,
+            //     "engineLogging": false
+            // }   //排查调试相关的问题，开启后会输出非常详细的底层通信日志
+        }
+
+    ]
+}

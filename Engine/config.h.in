@@ -1,0 +1,3 @@
+#pragma once
+
+#define ASSETS_ROOT "@assets_dir@"

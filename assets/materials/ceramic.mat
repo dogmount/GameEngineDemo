@@ -1,0 +1,31 @@
+{
+    "shader":
+    {
+        "name":"ceramic",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 3.0 },
+            { "name": "heightScale", "v0": 0.03 }
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/ceramic/ceramic.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/ceramic/ceramic_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/ceramic/ceramic_disp.jpg"
+            }
+        ]
+    }
+}

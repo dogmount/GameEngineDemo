@@ -1,0 +1,21 @@
+# 构建产物（不带斜杠前缀, 任意层级都匹配, 包含 Engine/thirdparty/glfw-3.4/build/）
+build/
+bin/
+
+# CMake / 编译产物兜底
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+*.obj
+*.o
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+
+# 编辑器/系统
+.vs/
+*.user
+Thumbs.db
+.DS_Store

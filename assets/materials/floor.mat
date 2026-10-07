@@ -1,0 +1,23 @@
+{
+    "shader":
+    {
+        "name":"floorsChecker",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": [ { "name": "uvScale", "v0": 3.0 } ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/floors/FloorsCheckerboard.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/floors/FloorsCheckerboard_Normal.jpg"
+            }
+        ]
+    }
+}

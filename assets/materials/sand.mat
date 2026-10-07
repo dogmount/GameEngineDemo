@@ -1,0 +1,31 @@
+{
+    "shader":
+    {
+        "name":"dirt",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 3.0 },
+            { "name": "heightScale", "v0": 0.1 }
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/dirt/dirt.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/dirt/dirt_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/dirt/dirt_disp.jpg"
+            }
+        ]
+    }
+}

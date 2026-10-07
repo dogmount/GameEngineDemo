@@ -1,0 +1,31 @@
+{
+    "shader":
+    {
+        "name":"brick_1k",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 3.0 },
+            { "name": "heightScale", "v0": 0.03 }
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/brick/brick.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/brick/brick_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/brick/brick_disp.jpg"
+            }
+        ]
+    }
+}

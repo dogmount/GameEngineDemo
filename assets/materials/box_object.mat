@@ -1,0 +1,27 @@
+{
+    "shader":
+    {
+        "name":"box_object",
+        "vertex":"shaders/vertex.glsl",
+        "fragment":"shaders/box_green.glsl"
+    },
+    "params":
+    {
+        "float3":
+        [
+            {
+                "name":"box_green",
+                "v0":0.2,
+                "v1":1.0,
+                "v2":0.2
+            }
+        ],
+        "textures":
+        [
+            {
+                "name":"baseColorTexture",
+                "path":"textures/container.jpg"
+            }
+        ]
+    }
+}

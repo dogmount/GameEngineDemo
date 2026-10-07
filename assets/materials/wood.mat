@@ -1,0 +1,31 @@
+{
+    "shader":
+    {
+        "name":"wood",
+        "vertex":"shaders/wood/vertex.glsl",
+        "fragment":"shaders/wood/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 7.0 },
+            { "name": "heightScale", "v0": 0.03 }
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/wood/wood.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/wood/wood_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/wood/wood_disp.jpg"
+            }
+        ]
+    }
+}
