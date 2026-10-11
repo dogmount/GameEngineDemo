@@ -4,13 +4,13 @@ GL_Engine 是一个个人自研的游戏引擎，**支持3D/2D小型游戏开发
 
 > 主菜单
 
-![主菜单](C:\Users\TUKO\Desktop\截图\9945f26b-344d-457f-9de2-d0d53b027361.png)
+![主菜单](./images/9945f26b-344d-457f-9de2-d0d53b027361.png)
 
 > 演示场景
 
-![截图1](C:\Users\TUKO\Desktop\截图\381314d1-94f7-4d0b-a9db-5f09ec7846f8.png)
+![截图1](./images/381314d1-94f7-4d0b-a9db-5f09ec7846f8.png)
 
-![截图2](C:\Users\TUKO\Desktop\截图\03151ff9-1fca-4377-909b-ce3b313b02fd.png)
+![截图2](./images/03151ff9-1fca-4377-909b-ce3b313b02fd.png)
 
 
 
