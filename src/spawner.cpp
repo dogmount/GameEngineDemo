@@ -75,7 +75,8 @@ void Spawner::SpawnOneRandom()
         return;
     }
 
-    auto *obj = m_scene->CreateObject("RandomObject");
+    auto parent = m_scene->FindObjectByName("3DRoot");
+    auto *obj = m_scene->CreateObject("RandomObject", parent);
 
     //  随机位置(从天上落下) + 随机朝向
     obj->SetPosition(glm::vec3(

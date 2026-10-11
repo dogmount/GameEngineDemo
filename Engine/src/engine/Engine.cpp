@@ -534,14 +534,19 @@ namespace GL_engine
 
         // ========================= 场景相关 Pass =========================
 
-        //  几何 Pass:场景(3D + 2D)直接渲染到屏幕
+        //  几何 Pass: 渲染到离屏 HDR 缓冲(RGBA16F), 供泛光采样; 由合成 Pass 上屏
         RenderPass geometry;
         geometry.name = "SceneGeometry";
         geometry.type = RenderPassType::Geometry;
-        geometry.outputFBO = ""; //  空 = 默认帧缓冲(屏幕)
+        geometry.outputFBO = "sceneHDR"; //  ★ 从屏幕改为离屏
         geometry.clearColorBuffer = true;
         geometry.clearDepthBuffer = true;
         geometry.clearColor = glm::vec4(0.2f, 0.3f, 0.3f, 1.0f);
+        geometry.fboSpec.source = FBOSizeSource::WindowRelative;
+        geometry.fboSpec.widthScale = 1.0f;
+        geometry.fboSpec.heightScale = 1.0f;
+        geometry.fboSpec.colorAttachments = {{"", false, GL_RGBA16F, {GL_LINEAR, GL_LINEAR}}}; //  HDR 半浮点(>1 的亮度能存住)
+        geometry.fboSpec.depthAttachment.enabled = true;                                       //  FBO 内自带的深度, 3D 渲染照常深度测试
         m_renderPipeline->AddPass(geometry);
 
         //  UI Pass:UI 最后绘制到屏幕(不参与后处理)

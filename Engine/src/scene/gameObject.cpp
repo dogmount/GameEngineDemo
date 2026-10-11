@@ -117,7 +117,7 @@ namespace GL_engine
         component->Init();
     }
 
-    //  设置/获取动画激活状态
+    //  设置/获取对象激活状态
     void GameObject::SetActive(bool active)
     {
         m_active = active;

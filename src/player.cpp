@@ -83,7 +83,8 @@ void Player::Update(float deltaTime)
         }
 
         //  添加子弹
-        auto bullet = m_scene->CreateObject<Bullet>("bullet");
+        auto parent = m_scene->FindObjectByName("3DRoot");
+        auto bullet = m_scene->CreateObject<Bullet>("bullet", parent);
         auto material = GL_engine::Material::Load("materials/brick.mat");
         auto mesh = GL_engine::Mesh::CreateSphere(0.15f, 32, 32);
         bullet->AddComponent(new GL_engine::MeshComponent(material, mesh));

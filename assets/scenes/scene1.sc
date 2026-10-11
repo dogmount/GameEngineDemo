@@ -58,7 +58,7 @@
                                 "depthSegments":4
                             },
                             "material":{
-                                "path":"materials/sand.mat"
+                                "path":"materials/ground_1.mat"
                             }
                         },
                         {
@@ -411,7 +411,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -453,7 +453,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -495,7 +495,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -537,7 +537,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -579,7 +579,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -621,7 +621,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -663,7 +663,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -705,7 +705,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -747,7 +747,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -789,7 +789,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -831,7 +831,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -873,7 +873,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -915,7 +915,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -957,7 +957,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -999,7 +999,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1041,7 +1041,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1083,7 +1083,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1164,7 +1164,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1206,7 +1206,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1248,7 +1248,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1290,7 +1290,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1332,7 +1332,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1374,7 +1374,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1416,7 +1416,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1458,7 +1458,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1500,7 +1500,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1542,7 +1542,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1584,7 +1584,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1626,7 +1626,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",
@@ -1668,7 +1668,7 @@
                         {
                             "type":"MeshComponent",
                             "material":{
-                                "path":"materials/wood_wall.mat"
+                                "path":"materials/quat.mat"
                                 },
                             "mesh":{
                                 "type":"box",

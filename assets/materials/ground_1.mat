@@ -1,0 +1,31 @@
+{
+    "shader":
+    {
+        "name":"ground_1",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 3.0 },
+            { "name": "heightScale", "v0": 0.03 }
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/ground_1/ground.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/ground_1/ground_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/ground_1/ground_disp.jpg"
+            }
+        ]
+    }
+}

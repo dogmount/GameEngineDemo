@@ -1,0 +1,35 @@
+{
+    "shader":
+    {
+        "name":"tatami",
+        "vertex":"shaders/floors/vertex.glsl",
+        "fragment":"shaders/floors/fragment.glsl"
+    },
+    "params":
+    {
+        "float": 
+        [ 
+            { "name": "uvScale", "v0": 1.0 },
+            { "name": "heightScale", "v0": 0.03 }
+        ],
+        "float3":
+        [
+            
+        ],
+        "textures":
+        [
+            {
+                "name":"diffuseTexture",
+                "path":"textures/tatami/tatami.jpg"
+            },
+            {
+                "name":"normalMap",
+                "path":"textures/tatami/tatami_normal.jpg"
+            },
+            {
+                "name":"heightMap",
+                "path":"textures/tatami/tatami_disp.jpg"
+            }
+        ]
+    }
+}

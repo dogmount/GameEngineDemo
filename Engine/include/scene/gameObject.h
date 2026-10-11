@@ -143,7 +143,7 @@ namespace GL_engine
         glm::quat m_rotation = glm::quat(1.0f, 0.0f, 0.0f, 0.0f); //  对象旋转(四元数实现)
         glm::vec3 m_scale = glm::vec3(1.0f);                      //  对象缩放
 
-        //  动画激活状态设置
+        //  对象激活状态设置
         bool m_active = true;
     };
 
